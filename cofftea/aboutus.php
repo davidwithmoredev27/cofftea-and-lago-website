@@ -25,7 +25,41 @@
 			</nav> <!-- end of navbar-->
 		</header> <!-- end of header-->
 		<section id="aboutuscontainer">
-			section.
+			<section class="history">
+				<div id="historyinfo">
+					<h2 class="historytitle">Our History</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi adipisci eos architecto vitae possimus, dolorem omnis molestiae unde, labore! Nihil iste consequatur sint harum, aperiam! Voluptatem optio tempora id.</p>
+				</div>
+				<div id="historyimage">
+					<h2 id="memberstitle">Meet Our Members</h2>
+					<div id="membersCatalog">
+						<div class="compartment">
+							<figure>
+								<img src="" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+						<div class="compartment">
+							<figure>
+								<img src="" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+						<div class="compartment">
+							<figure>
+								<img src="" alt="">
+								<figcaption></figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="members">
+				<h2 class="memberstitles">Meet Our Members</h2>
+				<div id="membercatalog">
+					div#
+				</div>
+			</section>
 		</section>
 		<footer id="footercontainer">
 			<div class="footercontent">
