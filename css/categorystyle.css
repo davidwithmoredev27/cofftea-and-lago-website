@@ -1,0 +1,106 @@
+/* @mixin textShadow ($Tscolor) {
+	-webkit-text-shadow:0px 0px 5px $TScolor;
+	-ms-text-shadow:0px 0px 5px $TScolor;
+	-moz-text-shadow:0px 0px 5px $TScolor;
+	-o-text-shadow:0px 0px 5px $TScolor;
+	text-shadow:0px 0px 5px $TScolor;
+} */
+body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+body #maincontainer {
+  position: absolute;
+  width: inherit;
+  height: 100%;
+  margin: 0 auto;
+  /* @include borderShadow($boxShadow);
+  &:hover {
+  	@include borderShadowHigh($boxShadow);
+  } */
+}
+body #maincontainer #categoryContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  height: inherit;
+  padding: 0;
+  border: 1px solid black;
+  border-top: 0px none;
+  margin-bottom: 0;
+}
+body #maincontainer #categoryContainer .category {
+  line-height: 1.5em;
+  width: 85%;
+  margin-top: 30px;
+  border: 1px solid black;
+  -webkit-transition: linear 1s;
+  -ms-transition: linear 1s;
+  -moz-transition: linear 1s;
+  -o-transition: linear 1s;
+  transition: linear 1s;
+}
+body #maincontainer #categoryContainer .category:hover {
+  -webkit-box-shadow: 0px 0px 15px black;
+  -ms-box-shadow: 0px 0px 15px black;
+  -moz-box-shadow: 0px 0px 15px black;
+  -o-box-shadow: 0px 0px 15px black;
+  box-shadow: 0px 0px 15px black;
+}
+body #maincontainer #categoryContainer .category .content {
+  width: 70%;
+  height: auto;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+body #maincontainer #categoryContainer #coffteacategory {
+  margin-left: 60px;
+}
+body #maincontainer #categoryContainer #lagocategory {
+  margin-left: 35px;
+}
+
+.content .entry_icon {
+  margin: 0 auto;
+  height: inherit;
+}
+.content .entry_icon figure {
+  text-align: center;
+  margin: 0 auto;
+}
+.content .entry_icon figure figcaption h3 {
+  margin-top: .5em;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 1em;
+  font-family: "latobold";
+  font-style: bolder;
+}
+.content .entry_icon figure figcaption .contextIntro {
+  font-size: .7em;
+}
+.content .entry_icon figure img {
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.content .entry_icon a {
+  display: block;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 30px;
+  padding-top: .3em;
+  padding-bottom: .15em;
+  width: 8rem;
+  height: 3rem;
+  margin: 0 auto;
+  margin-top: 2em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=categorystyle.css.map */

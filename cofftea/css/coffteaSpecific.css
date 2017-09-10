@@ -1,0 +1,352 @@
+*, p {
+  font-family: "roboto" , arial , helvetica , sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+#container {
+  width: inherit;
+  height: inherit;
+  background-color: #FFFFF7;
+  font-family: Arial , helvetica ,sans-serif;
+  font-size: 1em;
+}
+#container header {
+  width: inherit;
+  height: 60px;
+  background-color: #483123;
+  box-shadow: 0px 0px 10px #000;
+}
+#container header #logocontainer {
+  float: left;
+  height: inherit;
+  margin: 0;
+  background-color: #483123;
+}
+#container header #navbar {
+  height: inherit;
+  margin-right: 6%;
+  float: right;
+}
+#container header #navbar ul li {
+  list-style-type: none;
+  background-color: #483123;
+  display: inline-block;
+  font-family: "roboto" , arial ,helvetica ,sans-serif;
+  float: left;
+  padding: 15px;
+  padding-top: 20px;
+}
+#container header #navbar ul li a {
+  text-decoration: none;
+  color: #FFFFF7;
+  text-transform: uppercase;
+  -webkit-transition: linear .2s;
+  -moz-transition: linear .2s;
+  -o-transition: linear .2s;
+  transition: linear .2s;
+  -moz-text-shadow: 0px 0px 2px #2A2A2A;
+  -webkit-text-shadow: 0px 0px 2px #2A2A2A;
+  -o-text-shadow: 0px 0px 2px #2A2A2A;
+  -ms-text-shadow: 0px 0px 2px #2A2A2A;
+  text-shadow: 0px 0px 2px #2A2A2A;
+}
+#container header #navbar ul li a:hover {
+  color: #E29C45;
+}
+#container #bannerimg {
+  height: 580px;
+  width: 100%;
+  background-image: url("../img/imageedit_1_2792461179.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#container #bannerimg #intro {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  text-align: center;
+  color: #FFFFF7;
+  line-height: 380%;
+  -ms-text-shadow: 0px 0px 15px #000;
+  -webkit-text-shadow: 0px 0px 15px #000;
+  -moz-text-shadow: 0px 0px 15px #000;
+  -o-text-shadow: 0px 0px 15px #000;
+  text-shadow: 0px 0px 15px #000;
+  opacity: 0.3;
+  -webkit-transition: linear 1s;
+  -ms-transition: linear 1s;
+  -o-transition: linear 1s;
+  moz-transition: linear 1s;
+  transition: linear 1s;
+}
+#container #bannerimg #intro:hover {
+  opacity: 1;
+}
+#container #bannerimg #intro h2 {
+  padding-top: 15%;
+  font-size: 350%;
+}
+#container #bannerimg #intro h3 {
+  font-size: 180%;
+}
+#container .welcomeintro {
+  /* border: 1px solid black; */
+  padding: 0;
+  height: 500px;
+  width: inherit;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont {
+  height: inherit;
+  width: inherit;
+  /* border:1px solid red; */
+  padding: 15px;
+  padding-top: 50px;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont #imgWelcome {
+  width: 40%;
+  margin-left: 40px;
+  float: left;
+  background-image: url("../img/pexels-photo-349609.jpeg");
+  -ms-box-shadow: 0px 0px 10px #000;
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  -o-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 400px;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont #imgWelcome p {
+  display: block;
+  font-size: 2em;
+  color: #FFFFF7;
+  -ms-text-shadow: 0px 0px 5px #000;
+  -webkit-text-shadow: 0px 0px 5px #000;
+  -moz-text-shadow: 0px 0px 5px #000;
+  -o-text-shadow: 0px 0px 5px #000;
+  text-shadow: 0px 0px 5px #000;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 120px;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont #imgWelcome a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+  padding-top: 13px;
+  border: 3px solid white;
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 120px;
+  -ms-box-shadow: 0px 0px 5px #2a2a2a;
+  -webkit-box-shadow: 0px 0px 5px #2a2a2a;
+  -moz-box-shadow: 0px 0px 5px #2a2a2a;
+  -o-box-shadow: 0px 0px 5px #2a2a2a;
+  box-shadow: 0px 0px 5px #2a2a2a;
+  -ms-text-shadow: 0px 0px 5px #000;
+  -webkit-text-shadow: 0px 0px 5px #000;
+  -moz-text-shadow: 0px 0px 5px #000;
+  -o-text-shadow: 0px 0px 5px #000;
+  text-shadow: 0px 0px 5px #000;
+  -webkit-transition: linear 0.5s;
+  -ms-transition: linear 0.5s;
+  -o-transition: linear 0.5s;
+  moz-transition: linear 0.5s;
+  transition: linear 0.5s;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont #imgWelcome a:hover {
+  border: 3px solid #483123;
+  text-shadow: none;
+  color: #483123;
+  font-weight: bold;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont #txtwelcome {
+  width: 40%;
+  padding: 10px;
+  padding-top: 0;
+  margin-right: 90px;
+  margin-top: 90px;
+  float: right;
+  text-align: center;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont #txtwelcome h1 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 2.5em;
+}
+#container .welcomeintro .imgWelcomeandtxtwelcomecont #txtwelcome .txtintro > p {
+  text-align: justify;
+  font-size: 140%;
+  line-height: 140%;
+}
+#container footer#footercontainer {
+  padding: 0;
+  width: inherit;
+  font-family: "roboto" , arial , sans-serif;
+  height: 250px;
+  background-color: #291a12;
+  color: white;
+}
+#container footer#footercontainer .footercontent {
+  margin: inherit;
+  height: 249px;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer {
+  float: left;
+  height: inherit;
+  width: 30%;
+  border-right: 1px dashed gray;
+  line-height: 150%;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #companyname {
+  margin-top: 29px;
+  background-color: inherit;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #companyname span {
+  background-color: inherit;
+  font-size: 1.4em;
+  color: inherit;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #location {
+  background-color: inherit;
+  margin-bottom: 0.90em;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #location span {
+  font-size: 0.90em;
+  background-color: inherit;
+  color: inherit;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #phonenumber {
+  background-color: inherit;
+  margin-bottom: 0.90em;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #phonenumber span {
+  font-size: 0.90em;
+  background-color: inherit;
+  color: inherit;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #email span {
+  background-color: inherit;
+  color: inherit;
+}
+#container footer#footercontainer .footercontent .aboutinfocontainer #companyname, #container footer#footercontainer .footercontent .aboutinfocontainer #location, #container footer#footercontainer .footercontent .aboutinfocontainer #phonenumber, #container footer#footercontainer .footercontent .aboutinfocontainer #email {
+  margin-left: 25px;
+}
+#container footer#footercontainer .footercontent .footernavbar {
+  float: right;
+  border: 1px	solid black;
+}
+#container footer#footercontainer #copyrightcontainer {
+  height: 50px;
+  width: inherit;
+  text-align: center;
+  background-color: #150e0a;
+  -ms-text-shadow: 0px 0px 5px #2a2a2a;
+  -webkit-text-shadow: 0px 0px 5px #2a2a2a;
+  -moz-text-shadow: 0px 0px 5px #2a2a2a;
+  -o-text-shadow: 0px 0px 5px #2a2a2a;
+  text-shadow: 0px 0px 5px #2a2a2a;
+  color: #FFFFF7;
+  margin: 0;
+}
+#container footer#footercontainer #copyrightcontainer p {
+  margin-top: 13px;
+  display: inline-block;
+  background-color: inherit;
+}
+
+/*contact us page specific style*/
+.contactusinfo {
+  width: inherit;
+  height: 1050px;
+  padding: 10px;
+}
+.contactusinfo #contactcontainer {
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 2%;
+  height: 1000px;
+}
+.contactusinfo #contactcontainer .floatright {
+  float: right;
+  margin: 10px;
+  margin-right: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 140%;
+  padding: 30px;
+  height: 45%;
+  -ms-box-shadow: 0px 0px 10px #2a2a2a;
+  -webkit-box-shadow: 0px 0px 10px #2a2a2a;
+  -moz-box-shadow: 0px 0px 10px #2a2a2a;
+  -o-box-shadow: 0px 0px 10px #2a2a2a;
+  box-shadow: 0px 0px 10px #2a2a2a;
+  -webkit-transition: linear 0.5s;
+  -ms-transition: linear 0.5s;
+  -o-transition: linear 0.5s;
+  moz-transition: linear 0.5s;
+  transition: linear 0.5s;
+}
+.contactusinfo #contactcontainer .floatright h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 100px;
+  font-size: 200%;
+  margin-bottom: 10%;
+}
+.contactusinfo #contactcontainer .floatright p {
+  text-align: center;
+  font-weight: bold;
+}
+.contactusinfo #contactcontainer .floatright p span {
+  font-weight: normal;
+}
+.contactusinfo #contactcontainer #address {
+  margin-right: 45px;
+}
+.contactusinfo #contactcontainer #Email {
+  margin-left: 20px;
+}
+.contactusinfo #contactcontainer #location {
+  border: 1px solid black;
+  width: inherit;
+  clear: both;
+  margin: 0 auto;
+  height: 430px;
+  margin-top: 100px;
+  -ms-box-shadow: 0px 0px 5px #000;
+  -webkit-box-shadow: 0px 0px 5px #000;
+  -moz-box-shadow: 0px 0px 5px #000;
+  -o-box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #000;
+}
+.contactusinfo #contactcontainer #location h2 {
+  text-align: center;
+  text-transform: capitalize;
+  height: 50px;
+  width: 100%;
+  font-size: 200%;
+  font-weight: bold;
+  padding: 10px;
+}
+.contactusinfo #contactcontainer #location #googlemap {
+  width: 100%;
+  height: 100%;
+}
+
+/* about us stylesheet */
+
+/*# sourceMappingURL=coffteaSpecific.css.map */

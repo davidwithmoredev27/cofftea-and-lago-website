@@ -1,0 +1,25 @@
+@import "fonts";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*for over theming colors*/
+$backgroundColor:#FFFFF7; 
+$coffteaThemeColor:#9E5428;
+$coffteaNormalText:#5B4B27;
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html , body , figure , figcaption ,
+ pre , main , article , section , ul , li , ol , footer , 
+span , section {
+	box-sizing: border-box;
+	background-color: $backgroundColor;
+	color:#2a2a2a;
+	font-family: "roboto" ,arial , helvetica , sans-serif;
+	background-color: #fff;
+}
+

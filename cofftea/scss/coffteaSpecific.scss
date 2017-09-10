@@ -1,0 +1,354 @@
+$backgroundColor:#FFFFF7; 
+$coffteaThemeColor:#483123;
+$coffteaNormalText:#5B4B27;
+$copyRightBg:#150e0a;
+$footercontentbg:#291a12;
+$goldenfallenleaves:#E29C45;
+$creamcan:#F5D76E;
+
+* , p {
+	font-family:"roboto" , arial , helvetica , sans-serif;
+}
+@mixin transitionConfiguration($function , $timer) {
+	-webkit-transition:$function  $timer;
+	-ms-transition:$function  $timer;
+	-o-transition:$function  $timer;
+	moz-transition:$function $timer;
+	transition:$function $timer;
+}
+@mixin boxShadow($propertyOne , $propertyTwo , $propertyThree , $color) {
+	-ms-box-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	-webkit-box-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	-moz-box-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	-o-box-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	box-shadow:$propertyOne $propertyTwo $propertyThree $color;
+}
+@mixin textShadow($propertyOne , $propertyTwo , $propertyThree , $color) {
+	-ms-text-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	-webkit-text-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	-moz-text-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	-o-text-shadow:$propertyOne $propertyTwo $propertyThree $color;
+	text-shadow:$propertyOne $propertyTwo $propertyThree $color;
+}
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	box-sizing: border-box;
+}
+
+#container { 
+	width: inherit;
+	height: inherit;
+	background-color :$backgroundColor;
+	font-family: Arial , helvetica ,sans-serif;
+	font-size: 1em;
+	header {
+		width: inherit;
+		height: 60px;
+		background-color: $coffteaThemeColor;
+		box-shadow: 0px 0px 10px #000;
+		#logocontainer {
+			float: left;
+			height: inherit;
+			margin: 0;
+			background-color: $coffteaThemeColor;
+		}
+		#navbar {
+			height: inherit;
+			margin-right: 6%;
+			float: right;
+			ul {
+				
+				li {
+					list-style-type: none;
+					background-color: $coffteaThemeColor;
+					display: inline-block;
+					font-family: "roboto" , arial ,helvetica ,sans-serif;
+					float: left;
+					// border :1px solid black;
+					padding: 15px;
+					padding-top: 20px;
+					a{
+						text-decoration: none;
+						color:$backgroundColor;
+						text-transform: uppercase;
+						-webkit-transition: linear .2s;
+						-moz-transition: linear .2s;
+						-o-transition: linear .2s;
+						transition: linear .2s;
+						-moz-text-shadow:0px 0px 2px #2A2A2A;
+						-webkit-text-shadow:0px 0px 2px #2A2A2A;
+						-o-text-shadow:0px 0px 2px #2A2A2A;
+						-ms-text-shadow:0px 0px 2px #2A2A2A;
+						text-shadow:0px 0px 2px #2A2A2A;
+						&:hover {
+							color:$goldenfallenleaves;
+						}
+					}
+				}
+			}
+		}
+	}
+	#bannerimg {
+		height: 580px;
+		width: 100%;
+		background-image: url("../img/imageedit_1_2792461179.jpg");
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		#intro {
+			width: inherit;
+			height: inherit;
+			margin: 0;
+			text-align: center;
+			color:$backgroundColor;
+			line-height: 380%;
+			@include textShadow(0px, 0px, 15px, #000);
+			opacity: 0.3;
+			@include transitionConfiguration(linear , 1s);
+			&:hover {
+				opacity: 1;
+			}
+			h2 {
+				padding-top: 15%;
+				font-size:350%;
+			}
+			h3 {
+				font-size: 180%;
+			}
+		}
+	}
+
+
+	.welcomeintro {
+		/* border: 1px solid black; */
+		padding: 0;
+		height: 500px;
+		width: inherit;
+		.imgWelcomeandtxtwelcomecont {
+			height: inherit;
+			width: inherit;
+			/* border:1px solid red; */
+			padding: 15px;
+			padding-top: 50px;
+			#imgWelcome {
+				width: 40%;
+				margin-left:40px;
+				float: left;
+				background-image:url("../img/pexels-photo-349609.jpeg");
+				@include boxShadow(0px, 0px, 10px, #000);
+				background-size: 100% 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				text-align: center;
+				height:400px;
+				p {
+					display:block;
+					font-size: 2em;
+					color:$backgroundColor;
+					@include textShadow(0px, 0px, 5px, #000);
+					text-align: center;
+					font-size: 2.5em;
+					margin-top: 120px;
+				}
+				a{
+					display: block;
+					text-decoration: none;
+					color: #fff;
+					height: 50px;
+					padding:10px;
+					padding-top: 13px;
+					border: 3px solid white;
+					margin:0 auto;
+					margin-top: 90px;
+					width: 120px;
+					@include boxShadow(0px , 0px , 5px, #2a2a2a);
+					@include textShadow(0px, 0px, 5px, #000);
+					@include transitionConfiguration(linear , .5s);
+					&:hover {
+						border: 3px solid $coffteaThemeColor;
+						text-shadow:none;
+						color: $coffteaThemeColor;
+						font-weight: bold;
+					}
+				}
+			}
+			#txtwelcome {
+				width: 40%;
+				padding: 10px;
+				padding-top: 0;
+				margin-right: 90px;
+				margin-top: 90px;
+				float: right;
+				text-align:center;
+				h1 {
+					text-align: center;
+					margin-top: 0px;
+					font-size: 2.5em;
+				}
+				.txtintro > p  {
+					text-align: justify;
+					font-size: 140%;
+					line-height: 140%;
+				}
+			}
+		}
+	}
+
+	footer#footercontainer {
+		padding: 0;
+		width: inherit;
+		font-family: "roboto" , arial , sans-serif;
+		height: 250px;
+		// border: 1px solid black;
+		background-color: $footercontentbg;
+		color:white;
+		.footercontent {
+			margin: inherit;
+			height:249px;
+			.aboutinfocontainer {
+				float: left;
+				height: inherit;
+				width: 30%;
+				border-right: 1px dashed gray;
+				line-height: 150%;
+				#companyname {
+					margin-top: 29px;
+					background-color: inherit;
+					span {
+						background-color: inherit;
+						font-size: 1.4em;
+						color:inherit;
+					}
+				}
+				 #location {
+				 	background-color: inherit;
+					span {
+						font-size: 0.90em;
+						background-color: inherit;
+						color:inherit;
+					}
+					margin-bottom: 0.90em;
+				}
+				#phonenumber {
+					background-color: inherit;
+					span {
+						font-size: 0.90em;
+						background-color: inherit;
+						color:inherit;
+					}
+					margin-bottom: 0.90em;
+				}
+				#email {
+					span {
+						background-color: inherit;
+						color:inherit;
+					}
+				}
+				#companyname ,#location, #phonenumber , #email {
+					margin-left: 25px;
+				}
+			}
+			.footernavbar {
+				float: right;
+				border: 1px	solid black;
+			}
+		}
+		#copyrightcontainer {
+			height: 50px;
+			width: inherit;
+			text-align: center;
+			background-color: $copyRightBg;
+			@include textShadow(0px, 0px, 5px, #2a2a2a);
+			color:$backgroundColor;
+			margin: 0;
+			p {
+				margin-top: 13px;
+				display: inline-block;
+				background-color: inherit;
+			}
+		}
+	}
+}
+
+
+/*contact us page specific style*/
+
+.contactusinfo {
+	width:inherit;
+	height: 1050px;
+	padding: 10px;
+	#contactcontainer {
+		width: 97%;
+		margin: 0 auto;
+		margin-top: 2%;
+		height: 1000px;
+		.floatright {
+			float: right;
+			margin: 10px;
+			margin-right: 70px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			line-height: 140%;
+			padding:30px;
+			height: 45%;
+			@include boxShadow(0px , 0px , 10px , #2a2a2a);
+			@include transitionConfiguration(linear , .5s);
+			&:hover {
+			}
+			h2 {
+				text-align: center;
+				text-transform: capitalize;
+				margin-top: 100px;
+				font-size: 200%;
+				margin-bottom:10%;
+			}
+			p {
+				text-align: center;
+				font-weight: bold;
+				span {
+					font-weight: normal;
+				}
+			}
+		}
+		#address {
+			margin-right: 45px;
+		}
+		#Email {
+			margin-left: 20px;
+		}
+		#location {
+			border: 1px solid black;
+			width: inherit;
+			clear: both;
+			margin: 0 auto;
+			height: 430px;
+			margin-top: 100px;
+			@include boxShadow(0px, 0px , 5px, #000);
+			h2 {
+				text-align: center;
+				text-transform: capitalize;
+				height: 50px;
+				width: 100%;
+				font-size: 200%;
+				font-weight: bold;
+				padding: 10px;
+			}
+			#googlemap {
+				width: 100%;
+				height:100%;
+			}
+		} 
+	}
+}
+
+/* about us stylesheet */
+
+
+#aboutuscontainer {
+	
+}

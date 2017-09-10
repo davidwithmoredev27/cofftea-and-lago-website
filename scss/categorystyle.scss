@@ -1,0 +1,130 @@
+// overall themes color
+$backgroundColor:#FFFFF7; 
+$coffteaThemeColor:#483123;
+$coffteaNormalText:#5B4B27;
+$boxShadow:#2a2a2a;
+@mixin borderShadow($boxShadowparam) {
+	-webkit-box-shadow : 0px 0px 5px $boxShadowparam;
+	-ms-box-shadow: 0px 0px 5px $boxShadowparam;
+	-moz-box-shadow: 0px 0px 5px $boxShadowparam;
+	-o-box-shadow:0px 0px 5px $boxShadowparam;
+	box-shadow: 0px 0px 5px $boxShadowparam;
+}
+@mixin borderShadowHigh($boxShadowparam) {
+	-webkit-box-shadow : 0px 0px 15px $boxShadowparam;
+	-ms-box-shadow: 0px 0px 15px $boxShadowparam;
+	-moz-box-shadow: 0px 0px 15px $boxShadowparam;
+	-o-box-shadow:0px 0px 15px $boxShadowparam;
+	box-shadow: 0px 0px 15px $boxShadowparam;
+}
+
+@mixin categoryAnimation($transFunc , $time) {
+	-webkit-transition:$transFunc $time;
+	-ms-transition:$transFunc $time;
+	-moz-transition:$transFunc $time;
+	-o-transition:$transFunc $time;
+	transition:$transFunc $time;
+}
+/* @mixin textShadow ($Tscolor) {
+	-webkit-text-shadow:0px 0px 5px $TScolor;
+	-ms-text-shadow:0px 0px 5px $TScolor;
+	-moz-text-shadow:0px 0px 5px $TScolor;
+	-o-text-shadow:0px 0px 5px $TScolor;
+	text-shadow:0px 0px 5px $TScolor;
+} */
+body {
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	// maintconainer specific rules
+	#maincontainer {
+		position: absolute;
+		width: inherit;
+		height: 100%;
+		margin: 0 auto;
+
+		/* @include borderShadow($boxShadow);
+		&:hover {
+			@include borderShadowHigh($boxShadow);
+		} */
+		#categoryContainer {
+			position: relative;
+			display: grid;
+			grid-template-columns:auto auto;
+			grid-template-rows:auto auto;
+			height: inherit;
+			padding: 0;
+			border: 1px solid black;
+			border-top: 0px none;
+			margin-bottom: 0;
+			.category {
+				line-height: 1.5em;
+				width: 85%;
+				margin-top: 30px;
+				border: 1px solid black;
+				@include categoryAnimation(linear , 1s);
+				&:hover {
+					@include borderShadowHigh(black);
+				}
+				.content {
+					width: 70%;
+					height: auto;
+					padding: 1rem;
+					margin: 0 auto;
+					margin-top: 10%;
+				}
+			}
+			#coffteacategory {
+				margin-left: 60px;
+			}
+
+			#lagocategory {
+				margin-left: 35px;
+			}	
+		}
+	}
+}
+.content {
+	.entry_icon {
+		margin:0 auto;
+		height: inherit;
+		figure {
+			text-align: center;
+			margin: 0 auto;
+			figcaption {
+				h3 {
+					margin-top: .5em;
+					text-transform: uppercase;
+					font-size: 1em;
+					margin-bottom: 1em;
+					font-family: "latobold";
+					font-style: bolder;
+				}
+				.contextIntro {
+					font-size: .7em;
+				}
+			}
+			img {
+				background-repeat: no-repeat;
+				background-position: center;
+				text-align: center;
+			}
+		}
+		a {
+			display:block;
+			text-transform: uppercase;
+			position: relative;
+			font-size: 30px;
+			padding-top: .3em;
+			padding-bottom: .15em;
+			width: 8rem;
+			height: 3rem;
+			margin: 0 auto;
+			margin-top: 2em;
+			text-align: center;
+			text-decoration: none;
+			color:black;
+
+		}
+	}
+}
