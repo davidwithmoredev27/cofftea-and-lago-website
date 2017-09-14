@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<?php require "../template/reset.php"; ?>
-	<title>Cofftea Zone De Cavite</title>
+	<title>Contact Us</title>
 	<?php require "../template/scriptsandstylesheet.php"; ?>
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/coffteaSpecific.css">
@@ -11,15 +11,15 @@
 	<div id="container">
 		<header class="header">
 			<section id="logocontainer">
-				<img src="#" alt="cofftea zone">
+				<img src="img/cofftealogo.png" alt="cofftea zone">
 			</section>
 			<nav id="navbar">
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
-					<li><a href="products.php">Menus</a></li>
-					<li><a href="products.php">Gallery</a></li>
-					<li><a href="events.php">Events</a></li>
+					<li><a href="COFFTEA MENU.pdf">Products</a></li>
+					<li><a href="services.php">Services</a></li>
+					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="contactus.php">Contact Us</a></li>
 				</ul>	
 			</nav> <!-- end of navbar-->
@@ -32,12 +32,12 @@
 				</section>
 				<section id="contactnumber" class="floatright" >
 					<h2 id="contactnumber">Contact Number</h2>
-					<p>Globe : <span>09277182520</span></p>
-					<p>Smart : <span>09193287580</span></p>
+					<span>Telephone: 402-0556</span><br>
+					<span>Mobile: 09177049806</span>
 				</section>
 				<section id="Email" class="floatright">
 					<h2 id="emailtitle">email address</h2>
-					<p>email: <span>davidwithmore422@gmail.com</span></p>
+					<p>email: <span>justine.ponsones@gmail.com</span></p>
 				</section>
 				<section id="location">
 					<iframe id="googlemap" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARxhpxiWUY-LpAarBxi8SWL6eblcc8YZk&q=14.4652850,120.8832320&zoom=17" allowfullscreen></iframe>
@@ -51,16 +51,26 @@
 					<p id="location"><span>851 Manila Cavite Road, Dalahican Cavite City,<br>Philippines.</span></p>
 					<div id="phonenumber">
 						<p>Contact Numbers:</p>
-						<span>Globe: 09354075756 /</span>
-						<span>Smart: 09954025039</span>
+						<span>Telephone: 402-0556</span><br>
+						<span>Mobile: 09177049806</span>
 					</div>
 					<div id="email">
-						<p>email: <span>davidwithmore422@gmail.com</span></p>
+						<p>email: <span>justine.ponsones@gmail.com</span></p>
 					</div>
 				</div>
 				<div class="footernavbar">
+					<nav class="links">
+						<ul>
+							<li><a href="aboutus.php">About Us</a></li>
+							<li><a href="COFFTEA MENU.pdf">Products</a></li>
+							<li><a href="services.php">Services</a></li>
+							<li><a href="gallery.php">Gallery</a></li>
+							<li><a href="contactus.php">Contact Us</a></li>
+						</ul>
+					</nav>
 					<div class="findus">
-						<a href="#"><img src="" alt="facebook"></a>
+						<h3>Find Us</h3>
+						<a href="#">Facebook</a>
 					</div>
 				</div>
 			</div>

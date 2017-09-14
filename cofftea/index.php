@@ -11,15 +11,15 @@
 	<div id="container">
 		<header class="header">
 			<section id="logocontainer">
-				<img src="#" alt="cofftea zone">
+				<img src="img/cofftealogo.png" alt="cofftea zone">
 			</section>
 			<nav id="navbar">
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
-					<li><a href="products.php">Menus</a></li>
-					<li><a href="products.php">Gallery</a></li>
-					<li><a href="events.php">Events</a></li>
+					<li><a href="COFFTEA MENU.pdf">Products</a></li>
+					<li><a href="services.php">Services</a></li>
+					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="contactus.php">Contact Us</a></li>
 				</ul>	
 			</nav> <!-- end of navbar-->
@@ -34,7 +34,7 @@
 			<div class="imgWelcomeandtxtwelcomecont">
 				<div id="imgWelcome">
 					<p>See Our Menus.</p>
-					<a href="#" alt="cofftea welcome img">Click Here</a>
+					<a href="COFFTEA MENU.pdf" alt="cofftea welcome img">Click Here</a>
 				</div>
 				<div id="txtwelcome">
 					<h1>Welcome To Cofftea Zone</h1>
@@ -51,16 +51,26 @@
 					<p id="location"><span>851 Manila Cavite Road, Dalahican Cavite City,<br>Philippines.</span></p>
 					<div id="phonenumber">
 						<p>Contact Numbers:</p>
-						<span>Globe: 09354075756 /</span>
-						<span>Smart: 09954025039</span>
+						<span>Telephone: 402-0556</span><br>
+						<span>Mobile: 09177049806</span>
 					</div>
 					<div id="email">
-						<p>email: <span>davidwithmore422@gmail.com</span></p>
+						<p>email: <span>justine.ponsones@gmail.com</span></p>
 					</div>
 				</div>
 				<div class="footernavbar">
+					<nav class="links">
+						<ul>
+							<li><a href="aboutus.php">About Us</a></li>
+							<li><a href="COFFTEA MENU.pdf">Products</a></li>
+							<li><a href="services.php">Services</a></li>
+							<li><a href="gallery.php">Gallery</a></li>
+							<li><a href="contactus.php">Contact Us</a></li>
+						</ul>
+					</nav>
 					<div class="findus">
-						<a href="#"><img src="" alt="facebook"></a>
+						<h3>Find Us</h3>
+						<a href="#">Facebook</a>
 					</div>
 				</div>
 			</div>
